@@ -1,0 +1,4 @@
+interface:
+  display_name: "库存账实与可用状态核对"
+  short_description: "对齐盘点与账面时点，解释SKU库存差异，核验可售、冻结与在途状态。"
+  default_prompt: "使用 $trade-stock-accuracy 完成本次业务任务。请先列出必须与可选输入，识别已有资料和待补充项。"

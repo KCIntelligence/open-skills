@@ -1,0 +1,4 @@
+interface:
+  display_name: "退换货、质量异常与索赔"
+  short_description: "核对退换货资格与涉事商品，比较补救方式并跟踪货品处置和赔付结果。"
+  default_prompt: "使用 $trade-returns-claims 完成本次业务任务。请先列出必须与可选输入，识别已有资料和待补充项。"

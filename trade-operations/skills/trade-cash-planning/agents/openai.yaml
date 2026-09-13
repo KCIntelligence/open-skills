@@ -1,0 +1,4 @@
+interface:
+  display_name: "现金预测与采购承诺安排"
+  short_description: "按收付时点预测现金缺口，比较采购、付款和催收安排并检验实际偏差。"
+  default_prompt: "使用 $trade-cash-planning 完成本次业务任务。请先列出必须与可选输入，识别已有资料和待补充项。"

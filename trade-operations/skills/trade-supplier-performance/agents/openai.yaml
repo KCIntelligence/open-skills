@@ -1,0 +1,4 @@
+interface:
+  display_name: "供应商绩效与持续改善"
+  short_description: "分开分析供应商迟交、短交和质量问题，形成整改、限用或备选建议并复评。"
+  default_prompt: "使用 $trade-supplier-performance 完成本次业务任务。请先列出必须与可选输入，识别已有资料和待补充项。"

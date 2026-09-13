@@ -1,0 +1,4 @@
+interface:
+  display_name: "寻源、比价与供应商选择"
+  short_description: "在规格、到货和成本约束下比较供应商报价，形成可执行的供货选择方案。"
+  default_prompt: "使用 $trade-supplier-sourcing 完成本次业务任务。请先列出必须与可选输入，识别已有资料和待补充项。"

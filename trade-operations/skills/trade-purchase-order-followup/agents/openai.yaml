@@ -1,0 +1,4 @@
+interface:
+  display_name: "采购订单跟进与到货恢复"
+  short_description: "跟踪采购订单剩余合格数量和预计可用日，处理延期、短交与到货异常。"
+  default_prompt: "使用 $trade-purchase-order-followup 完成本次业务任务。请先列出必须与可选输入，识别已有资料和待补充项。"

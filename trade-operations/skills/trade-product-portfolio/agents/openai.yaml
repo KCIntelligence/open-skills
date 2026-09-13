@@ -1,0 +1,4 @@
+interface:
+  display_name: "商品组合与生命周期经营"
+  short_description: "结合销量、贡献、供货和库存，提出商品保留、培育、收缩与退出方案。"
+  default_prompt: "使用 $trade-product-portfolio 完成本次业务任务。请先列出必须与可选输入，识别已有资料和待补充项。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "经营复盘与跨领域决策"
+  short_description: "汇总销售、毛利、库存、供应商和现金变化，形成管理层取舍与行动组合。"
+  default_prompt: "使用 $trade-management-review 完成本次业务任务。请先列出必须与可选输入，识别已有资料和待补充项。"

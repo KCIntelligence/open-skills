@@ -1,0 +1,4 @@
+interface:
+  display_name: "需求预测、库存风险与补货"
+  short_description: "按SKU和日期识别缺货及积压，比较补货、调拨和停补方案并跟踪库存效果。"
+  default_prompt: "使用 $trade-demand-inventory-plan 完成本次业务任务。请先列出必须与可选输入，识别已有资料和待补充项。"

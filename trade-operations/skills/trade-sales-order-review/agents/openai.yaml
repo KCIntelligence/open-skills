@@ -1,0 +1,4 @@
+interface:
+  display_name: "报价与客户订单承诺审核"
+  short_description: "结合价格利润、库存交期和客户信用，审核报价或订单可承诺的具体条件。"
+  default_prompt: "使用 $trade-sales-order-review 完成本次业务任务。请先列出必须与可选输入，识别已有资料和待补充项。"

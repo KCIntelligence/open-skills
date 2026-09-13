@@ -1,0 +1,4 @@
+interface:
+  display_name: "客户订单交付与异常处置"
+  short_description: "把已承诺订单落实到分配、拣货、发运和签收，处理交期与数量异常。"
+  default_prompt: "使用 $trade-order-fulfillment 完成本次业务任务。请先列出必须与可选输入，识别已有资料和待补充项。"

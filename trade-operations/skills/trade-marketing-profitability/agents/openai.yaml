@@ -1,0 +1,4 @@
+interface:
+  display_name: "营销投入与获客盈利优化"
+  short_description: "核对广告归因和成本，比较活动投入方案并验证增量贡献与库存承接。"
+  default_prompt: "使用 $trade-marketing-profitability 完成本次业务任务。请先列出必须与可选输入，识别已有资料和待补充项。"
