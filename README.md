@@ -23,12 +23,12 @@ KCIntelligence 的技能组仓库，持续收录多组分析与业务技能。�
 
 | 技能 | 用途 | 独立安装包 |
 | --- | --- | --- |
-| [data-consolidation](skills/data-consolidation/SKILL.md) | 汇总数据、对齐口径 | [下载 ZIP](packages/data-consolidation-1.0.0.zip) |
-| [evaluation-ranking](skills/evaluation-ranking/SKILL.md) | 按既定规则评价排名 | [下载 ZIP](packages/evaluation-ranking-1.0.0.zip) |
-| [organization-brief](skills/organization-brief/SKILL.md) | 制作组织管理简报 | [下载 ZIP](packages/organization-brief-1.0.0.zip) |
-| [group-comparison](skills/group-comparison/SKILL.md) | 对比指定业务分组 | [下载 ZIP](packages/group-comparison-1.0.0.zip) |
-| [object-diagnosis](skills/object-diagnosis/SKILL.md) | 诊断单个对象的表现差距 | [下载 ZIP](packages/object-diagnosis-1.0.0.zip) |
-| [results-publication](skills/results-publication/SKILL.md) | 制作已确认结果的公示材料 | [下载 ZIP](packages/results-publication-1.0.0.zip) |
+| [data-consolidation](evaluation-skills/data-consolidation/SKILL.md) | 汇总数据、对齐口径 | [下载 ZIP](packages/data-consolidation-1.0.0.zip) |
+| [evaluation-ranking](evaluation-skills/evaluation-ranking/SKILL.md) | 按既定规则评价排名 | [下载 ZIP](packages/evaluation-ranking-1.0.0.zip) |
+| [organization-brief](evaluation-skills/organization-brief/SKILL.md) | 制作组织管理简报 | [下载 ZIP](packages/organization-brief-1.0.0.zip) |
+| [group-comparison](evaluation-skills/group-comparison/SKILL.md) | 对比指定业务分组 | [下载 ZIP](packages/group-comparison-1.0.0.zip) |
+| [object-diagnosis](evaluation-skills/object-diagnosis/SKILL.md) | 诊断单个对象的表现差距 | [下载 ZIP](packages/object-diagnosis-1.0.0.zip) |
+| [results-publication](evaluation-skills/results-publication/SKILL.md) | 制作已确认结果的公示材料 | [下载 ZIP](packages/results-publication-1.0.0.zip) |
 
 安装方式见 [Codex / WorkBuddy 安装指南](INSTALL.md)。下载完整性校验值见 [SHA256SUMS](packages/SHA256SUMS)。每个 ZIP 只包含一项技能及其配套文件。
 
@@ -51,12 +51,12 @@ KCIntelligence 的技能组仓库，持续收录多组分析与业务技能。�
 
 | 业务环节 | 需要回答的问题 | 技能 | 结果交给谁、用于什么 |
 | --- | --- | --- | --- |
-| 形成可用事实 | 多个来源讲的是不是同一件事，哪些数能一起使用？ | [data-consolidation](skills/data-consolidation/SKILL.md) | 数据负责人补数；分析者取得同口径底表 |
-| 执行评价规则 | 按既定标准谁符合评价资格、分数和名次如何形成？ | [evaluation-ranking](skills/evaluation-ranking/SKILL.md) | 经办人与专业负责人核验结果，提供统一评价依据 |
-| 提炼组织议题 | 哪些发现需要管理层协调或确认？ | [organization-brief](skills/organization-brief/SKILL.md) | 管理层审阅证据、选择待决策事项 |
-| 支持分组管理 | 组内哪些对象存在差距，是否有共同关注项？ | [group-comparison](skills/group-comparison/SKILL.md) | 分组负责人组织核查与协同 |
-| 诊断对象表现 | 指定对象与可比基准差在哪，下一步应核查什么？ | [object-diagnosis](skills/object-diagnosis/SKILL.md) | 对象负责人核对问题及补充证据，不越级推断根因 |
-| 准确表达确认结果 | 哪些已确认结果和要求可以向指定范围公示？ | [results-publication](skills/results-publication/SKILL.md) | 获准读者查阅正式结果；不重新评奖或追加任务 |
+| 形成可用事实 | 多个来源讲的是不是同一件事，哪些数能一起使用？ | [data-consolidation](evaluation-skills/data-consolidation/SKILL.md) | 数据负责人补数；分析者取得同口径底表 |
+| 执行评价规则 | 按既定标准谁符合评价资格、分数和名次如何形成？ | [evaluation-ranking](evaluation-skills/evaluation-ranking/SKILL.md) | 经办人与专业负责人核验结果，提供统一评价依据 |
+| 提炼组织议题 | 哪些发现需要管理层协调或确认？ | [organization-brief](evaluation-skills/organization-brief/SKILL.md) | 管理层审阅证据、选择待决策事项 |
+| 支持分组管理 | 组内哪些对象存在差距，是否有共同关注项？ | [group-comparison](evaluation-skills/group-comparison/SKILL.md) | 分组负责人组织核查与协同 |
+| 诊断对象表现 | 指定对象与可比基准差在哪，下一步应核查什么？ | [object-diagnosis](evaluation-skills/object-diagnosis/SKILL.md) | 对象负责人核对问题及补充证据，不越级推断根因 |
+| 准确表达确认结果 | 哪些已确认结果和要求可以向指定范围公示？ | [results-publication](evaluation-skills/results-publication/SKILL.md) | 获准读者查阅正式结果；不重新评奖或追加任务 |
 
 常见衔接为：数据汇总 → 评价排名 → 组织简报／分组对比／单对象诊断；结果公示另读已确认名单、要求与模板。已有可用数据或评价结果时，可直接使用对应技能，不要求每次全部运行。
 
