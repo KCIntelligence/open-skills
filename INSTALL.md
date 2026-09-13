@@ -54,11 +54,10 @@ $skill-installer
 
 ## WorkBuddy
 
-打开“技能”，选择“添加技能 → 上传技能”，选择下载的单项技能ZIP；导入后在“已安装”中查找技能名称并启用。入口以当前客户端和 [WorkBuddy官方说明](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market) 为准。
+1. 左侧点开“技能”，选“添加技能 → 上传技能”，选下载的单项技能 ZIP。
+2. 导入后自动完成配置，即可在对话中调用。
 
-ZIP采用上面的单技能目录结构。本项目未完成WorkBuddy客户端的实际导入验证，不保证所有版本都能直接识别此包。若客户端拒绝导入，记录版本和提示信息，不要通过修改扩展名解决。
-
-不便导入时，可先解压完整目录，将SKILL.md的位置交给WorkBuddy，要求其先读取正文，再按需读取references中的示例。这是临时按文件使用，不等于已经注册为可自动发现的技能。
+关闭或卸载在“已安装”列表操作。ZIP 按上面的单技能结构打包，一次装一项。
 
 ## 安装后怎样使用
 
