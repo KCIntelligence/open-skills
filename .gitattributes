@@ -1,0 +1,14 @@
+* text=auto
+*.md text eol=lf
+LICENSE text eol=lf
+NOTICE text eol=lf
+SHA256SUMS text eol=lf
+*.zip binary
+.DS_Store export-ignore
+**/.DS_Store export-ignore
+._* export-ignore
+**/._* export-ignore
+__MACOSX export-ignore
+**/__MACOSX export-ignore
+Thumbs.db export-ignore
+Desktop.ini export-ignore
